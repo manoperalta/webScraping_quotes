@@ -7,10 +7,14 @@ Este projeto realiza a raspagem de dados do site (http://quotes
 
 - Python 3.7 ou superior
 - Google Chrome + ChromeDriver compatível
-- Bibliotecas Python:
+- Selenium
+- Bs4
+- Pandas
+- Requests
 
 ## bash
-pip install requests beautifulsoup4 selenium pandas
+- Opçao1: pip install requests beautifulsoup4 selenium pandas
+- Opçao2: pip install -r requirements.txt
 
 ## Funcionalidades Principais
 

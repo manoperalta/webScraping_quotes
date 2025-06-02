@@ -1,5 +1,6 @@
-from bs4 import BeautifulSoup
 import requests
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from datetime import datetime
@@ -9,6 +10,7 @@ import json
 import csv
 import os
 import time
+
 
 
 def screenShot(link, data_inicio=None):
@@ -23,14 +25,6 @@ def screenShot(link, data_inicio=None):
     driver.save_screenshot(caminho)
     driver.quit()
 
-
-import os
-import time
-import requests
-import pandas as pd
-from bs4 import BeautifulSoup
-from datetime import datetime
-from urllib.parse import urljoin
 
 def scanPage(link_inicial, max_paginas=10):
     link_atual = link_inicial
