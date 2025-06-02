@@ -1,6 +1,7 @@
 # Raspador de Citações - Quotes to Scrape
 
-Este projeto realiza a raspagem de dados do site (http://quotes.toscrape.com), coletando citações, autores e tags. Ele permite buscas específicas, exporta os resultados em CSV e JSON, e tira screenshots das páginas, inicialmente no scanPage, somente a primeira páginas.
+Este projeto realiza a raspagem de dados do site (http://quotes
+.toscrape.com), coletando citações, autores e tags. Ele permite buscas específicas, exporta os resultados em CSV e JSON, e tira screenshots das páginas, inicialmente no scanPage, somente a primeira páginas.
 
 ## Requisitos
 
@@ -75,5 +76,5 @@ Este projeto tem fins educacionais. Evite abusar de raspagem em sites sem permis
 
 ## Colaborador
 
-Jonathas M. Peralta
-@devser_mano
+- Jonathas M. Peralta.
+- @devser_mano.
