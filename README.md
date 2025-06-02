@@ -72,7 +72,7 @@ findTags("http://quotes.toscrape.com/", tag_busca="humor")
 
 ## Aviso
 
-Este projeto tem fins educacionais. Evite abusar de raspagem em sites sem permissão. Sempre verifique os termos de uso e o arquivo robots.txt do site.
+Este projeto tem fins educacionais. Alguns sites utilizam o arquivo robots.txt do site para determinar os termos e regras de uso.
 
 ## Colaborador
 
