@@ -212,7 +212,8 @@ def findTags(link, tag_busca=None):
         print(f"Arquivos salvos:\n {caminho_csv}\n {caminho_json}")
         
 
-scanPage("http://quotes.toscrape.com", max_paginas=10)
-findAutor("http://quotes.toscrape.com/", autor_busca="Albert Einstein")
-findTags("http://quotes.toscrape.com/", tag_busca="humor")
+if __name__ == "__main__":
+    scanPage("http://quotes.toscrape.com", max_paginas=10)
+    findAutor("http://quotes.toscrape.com/", autor_busca="Albert Einstein")
+    findTags("http://quotes.toscrape.com/", tag_busca="humor")
 
