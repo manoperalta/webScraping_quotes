@@ -3,6 +3,8 @@ from unittest.mock import patch, MagicMock
 from io import StringIO
 import sys
 from extracao import scanPage, findAutor, findTags
+
+
 class TestScraperFunctions(unittest.TestCase):
 
     @patch("extracao.requests.get")           
